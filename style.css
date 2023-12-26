@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik+Broken+Fax&display=swap');
+
+:root {
+    /*--background: #0d0d0d;*/
+    --background: #000000;
+    --foreground: #ffffff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: "Merriweather";
+
+    background-color: var(--background);
+    color: var(--foreground);
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: contain;
+
+    margin-top: 20px;
+
+    border: 1px dotted var(--foreground);
+    border-radius: 5px;
+}
+
+#welcome {
+    margin-top: 50px;
+
+    font-weight: bold;
+
+    font-size: 40px;
+}
+
+#tabs {
+    margin-top: 20px;
+}
+
+.tab {
+    display: inline-block;
+
+    text-decoration: underline;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+#bookmarks {
+    margin-top: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: center;
+
+    height: 200px;
+    overflow-y: scroll;
+}
+
+a {
+    color: var(--foreground);
+
+    margin-top: 8px;
+
+    text-transform: capitalize;
+}
+
+a:visited {
+    color: var(--foreground);
+}
