@@ -32,7 +32,7 @@ function get_message() {
     else if (hour > 12 && hour <= 20) {
         return "Good Afternoon";
     }
-    else if (hour >= 20 && hour < 0) {
+    else if (hour >= 20 && hour <= 23) {
         return "Good Evening";
     }
 }
