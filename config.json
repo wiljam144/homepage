@@ -1,0 +1,31 @@
+{
+    "name": "Wiljam",
+    "tabs": [
+        {
+            "name": "Social",
+            "links": {
+                "Reddit": "https://www.reddit.com/",
+                "YouTube": "https://www.youtube.com/",
+                "Twitter": "https://www.x.com/"
+            }
+        },
+        {
+            "name": "Developer",
+            "links": {
+                "Digital Garden": "https://wiljam144.github.io/digital-garden",
+                "Website": "https://wiljam144.github.io",
+                "GitHub": "https://github.com/"
+            }
+        },
+        {
+            "name": "Books",
+            "links": {
+                "C Programming Language": "https://venkivasamsetti.github.io/ebookworm.github.io/Books/cse/C%20Programming%20Language%20(2nd%20Edition).pdf",
+                "Beej's Guide to C": "https://beej.us/guide/bgc/html/split/",
+                "OCaml Programming": "https://cs3110.github.io/textbook/cover.html",
+                "Real world OCaml": "https://dev.realworldocaml.org/",
+                "Learn You a Haskell": "https://learnyouahaskell.github.io/chapters.html"
+            }
+        }
+    ]
+}
