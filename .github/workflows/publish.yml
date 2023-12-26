@@ -1,0 +1,25 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Out
+        uses: actions/checkout@v1
+
+      - name: create build directory
+        run: mkdir build
+
+      - name: copy the site
+        run: cp config.json index.html main.js style.css img build/ -r
+
+      - name: Publish files to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: build
