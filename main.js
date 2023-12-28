@@ -23,7 +23,7 @@ function get_message() {
     const date = new Date();
     const hour = date.getHours();
 
-    if (hour > 0 && hour <= 5) {
+    if (hour >= 0 && hour <= 5) {
         return "Good Night";
     }
     else if (hour > 5 && hour <= 12) {
